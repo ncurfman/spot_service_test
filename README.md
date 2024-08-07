@@ -1,4 +1,4 @@
-#Localization Data Service Test
+# Localization Data Service Test
 
 This code writes Spot's positional data to a .csv every time the client code is running when the service runs.
 
