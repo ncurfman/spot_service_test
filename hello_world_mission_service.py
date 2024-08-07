@@ -6,10 +6,10 @@
 
 """Example of how to run a RemoteMissionService servicer."""
 
-import writetext
-
 import logging
 import sys
+"added by Noah"
+import os
 
 import bosdyn.client
 import bosdyn.client.util
@@ -57,8 +57,13 @@ class HelloWorldServicer(remote_service_pb2_grpc.RemoteMissionServiceServicer):
         self.custom_params = dict_spec
 
     def Tick(self, request, context):
+       
+
+        "Added by Noah"
+        os.system("python localization_test.py")
+        #exec(open('/ncurfman/home/service_test/localization_test.py').read())
+
         """Logs text, then provides a valid response."""
-        writetext.write_file()
         response = remote_pb2.TickResponse()
         # This utility context manager will fill out some fields in the message headers.
         with ResponseContext(response, request):
