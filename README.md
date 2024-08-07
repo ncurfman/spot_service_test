@@ -23,4 +23,4 @@ I added two lines to the ```hello_world_mission_service.py``` example code which
 
 ```import os``` added at the top of the file.
 
-```os.system("python localization.py")``` added to the Tick function definition.
+```os.system("python localization_test.py")``` added to the Tick function definition.
