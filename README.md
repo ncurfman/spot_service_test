@@ -14,7 +14,7 @@ Open another termal and run the client with: ```python remote_mission_client.py 
 
 Once the client has run you should see a .csv file written to the script directory with a single data point.
 
-The "hello world" service should be available as a custom action on the Spot Tablet, but I have not tested it with the tablet yet.
+The "hello world" service should be available as a custom action on the Spot Tablet if the proper options are set to communicate with the robot when the service and client scripts are called, but I have not tested it with the tablet yet.
 
 
 ```remote_mission_client.py``` is the unmodified example code provided by Boston Dynamics.
