@@ -1,6 +1,6 @@
 # Localization Data Service Test
 
-This code writes Spot's positional data to a .csv every time the client code is running when the service runs.
+This code writes Spot's positional data to a .csv every time the client code is run when the service is running.
 
 Open a terminal and define 3 system variables:
 
